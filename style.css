@@ -410,4 +410,62 @@ footer .highlight {
 .social-icons img:hover {
   opacity: 1;
 }
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-list li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  .image-overlay-container {
+    height: 300px;
+  }
+
+  .overlay-content .logo {
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  .container,
+  .container1 {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .text-section {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .image-placeholder {
+    width: 100%;
+    height: 250px;
+    background-size: contain;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer-icons {
+    justify-content: center;
+  }
+}
 
